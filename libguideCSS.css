@@ -95,7 +95,7 @@
 }
 
 .s-lib-jqtabs > .nav-tabs > .active > a,
-.s-lib-jqtabs > .nav-tabs > .active > a:focus
+.nav>li>a:focus
 {
    background-color: #e6f0ec;
 }
