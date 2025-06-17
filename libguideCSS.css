@@ -99,12 +99,12 @@
 }
 
 .tabLink, .tabLink:visited {
-   color: #006633;
-   text-decoration: underline;   
+   color: #006633 !important;
+   text-decoration: underline !important;   
 }
 
 .tabLink:hover {
-   color: #9D8F5C;
+   color: #9D8F5C !important;
 }
 
 
