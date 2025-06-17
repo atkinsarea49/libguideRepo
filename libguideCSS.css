@@ -94,7 +94,9 @@
    font-weight: 800 !important;
 }
 
-.s-lib-jqtabs > .nav-tabs > .active > a {
+.s-lib-jqtabs > .nav-tabs > .active > a,
+.s-lib-jqtabs > .nav-tabs > .focus > a
+{
    background-color: #e6f0ec;
 }
 
