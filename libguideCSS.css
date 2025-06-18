@@ -97,7 +97,7 @@
 .s-lib-jqtabs > .nav-tabs > .active > a,
 .nav>li>a:focus
 {
-   background-color: #e6f0ec;
+   background-color: #e6f0ec !important;
 }
 
 .tabLink, .tabLink:visited {
