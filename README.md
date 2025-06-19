@@ -7,5 +7,5 @@ For any of this to work or look even remotely good, you need to copy and paste t
 ```
 To find this box:
 1. On the editing page for your libguide, find and click on the Look and Feel Icon, then Click "Guide Custom CSS/JS."
-![screenshot of the look and feel menu open. the guide custom css/js option is highlighted in red](documentationImages/detailsDropdown1.png)
-2. 
+![screenshot of the look and feel menu open. the guide custom css/js option is highlighted in red](documentationImages/customCSS1.png)
+2. Paste the following code:
