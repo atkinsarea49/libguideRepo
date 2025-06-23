@@ -94,7 +94,7 @@ class="centerimage"
 To put multiple images in a row and have them centered:
 1. Add this attribute inside the `<img>` tag of your desired image.
 ```
-class="rowimage"
+class="imagerow"
 ```
 ### Adding one or more Images with Captions
 This one is a little more complicated, but the images will align nicely with the captions.
