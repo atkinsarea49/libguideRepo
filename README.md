@@ -90,14 +90,8 @@ For some reason, images don't center themselves on the public libguide like they
 ```
 class="centerimage"
 ```
-### Putting Images in a Row
-To put multiple images in a row and have them centered:
-1. Add this attribute inside the `<img>` tag of your desired image.
-```
-class="imagerow"
-```
-### Adding one or more Images with Captions
-This one is a little more complicated, but the images will align nicely with the captions.
+### Adding one or more Images in a Row (or with Captions)
+This one is a little more complicated, but the images will align nicely with the captions. You can use this to either put multiple images in a row, add a caption to an image that conforms to the image's size, or both.
 1. Copy and paste this code wherever you want your image(s) to be placed.
 ```
 <div style="margin-left:auto !important; margin-right:auto !important; width:fit-content;">
@@ -131,6 +125,10 @@ So if you had two images, it would look like this:
    - **[PLACE IMAGE HERE]** - Copy and paste your image element in between the `<p>` and `</p>` tags.
    - **[PLACE CAPTION HERE]** - Type your caption here.
 4. Repeat for each image.
+5. If you don't want the caption, delete this line:
+```
+<p class="caption">[PLACE CAPTION HERE]</p>
+```
 ## Linking to Specific Tabs in Tabbed Boxes
 I have no idea why this isn't a thing you can do. If you want to link to a specific tab in a tabbed box, use this code to create your link. Keep in mind this is a bit more involved and better suited for more advanced users.
 1. Copy and paste this code wherever your want your link to be. This can be inline with other text or on its own. It does not matter.
