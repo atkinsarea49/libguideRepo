@@ -18,7 +18,6 @@ Most of these techniques require you to edit the source code for your content it
 ```
 - Notice how the closing tag has a `/` before the element's name.
 - You can nest multiple elements inside each other.
-- 
 - Some elements like images only have a singular tag, which looks like this:
 ```
 <img href="blahblahblah.com/image" alt="Alternate text" />
@@ -67,6 +66,7 @@ This is a box of text designed to catch the user's attention with bolder text an
 2. Replace the **[YOUR MESSAGE HERE]** text with your text. It is not recommended to put anything other than text here.
 ## Prusa Mode Icons
 These are small icons to indicate the settings level that a user will need to have enabled in PrusaSlicer in order to see the indicated settings. This is a specific use case meant for the 3D printing libguide.
+![Screenshot of the Prusa mode icons, which are small, colored hexagons that display next to text](documentationImages/prusaModeIcons.png)
 1. Paste one of these anywhere you need to indicate a settings mode, ideally at the beginning of an element right after the opening tag. You don't need to change anything.
 ### Simple Mode
 ```
@@ -114,7 +114,7 @@ This one is a little more complicated, but the images will align nicely with the
     <p class="caption">[PLACE CAPTION HERE]</p>
 </div>
 ```
-    - So if you had two images, it would look like this:
+So if you had two images, it would look like this:
 ```
 <div style="margin-left:auto !important; margin-right:auto !important; width:fit-content;">
 	<div class="imagerow">
@@ -152,5 +152,6 @@ I have no idea why this isn't a thing you can do. If you want to link to a speci
                       - Your first tab's ID will be `s-lib-ctab-34531070-0`
                       - Your second tab's ID will be `s-lib-ctab-34531070-1`
                       - Your third tab's ID will be `s-lib-ctab-34531070-2` and so on
-          - **IMPORTANT: If you reoder your tabs, you will need to make sure you update your links to match the new order, since the tabs are numbered sequentially and not necessarily based on the individual tab itself**
+
+**IMPORTANT: If you reoder your tabs, you will need to make sure you update your links to match the new order, since the tabs are numbered sequentially and not necessarily based on the individual tab itself**
 
