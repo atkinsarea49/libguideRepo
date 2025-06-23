@@ -39,7 +39,7 @@ This element will put a question mark icon wherever you paste the code that open
    <p>[PLACE YOUR CONTENT HERE]</p>
 </div>
 ```
-2. You will need to replace several things in this code. Replace the following text **including the brackets**
+2. You will need to replace several things in this code. Replace the following text **including the brackets**, but do not remove the quotes.
   - **[ID HERE]** - This should be a unique identifier for your dropdown box. All lowercase, use hyphens instead of spaces, no special characters.
     - e.g. `aria controls="simple-mode-explanation"`
     - e.g. `href="#simple-mode-explanation"`
@@ -52,8 +52,105 @@ This element will put a question mark icon wherever you paste the code that open
   - **[PLACE YOUR CONTENT HERE]** - Add the stuff you want displayed in the collapsable box here. You can add other elements outside the `<p>` tags as well such as lists and images, as long as everything stays within the `<div>` tags.
     - If you are not familiar with HTML and you want to add stuff beyond plain text, I'd recommend adding it using the rich text editor at the bottom of the page, then cutting and pasting the source code between the two `<div>` tags.
     - If you need multiple paragraphs, add your additional paragraphs after the closed `</p>` tag enclosed with a `<p>` tag at the beginning and a `</p>` tag at the end.
-  
-
-
-
+## Alert Box
+This is a box of text designed to catch the user's attention with bolder text and different coloring. The Exclaimation point icon contains an Aria label that screen readers will read aloud as "Alert." This is designed to draw the user's attention to important notes/safety notices.
+![Screenshot of an alert box. The text is bold and enclosed in a red box with an icon to indicate that the text is important](documentationImages/alertbox.png)
+1. Copy and paste the following code wherever your want your alert box to be. It is recommended not to place it inside any inline elements (mostly text elements like `<p>` and such).
+```
+<div class="alertBox">
+   <p>
+      <span class="glyphicon glyphicon-exclamation-sign" aria-label="Alert"></span>
+      [YOUR MESSAGE HERE]
+   </p>
+</div>
+```
+2. Replace the **[YOUR MESSAGE HERE]** text with your text. It is not recommended to put anything other than text here.
+## Prusa Mode Icons
+These are small icons to indicate the settings level that a user will need to have enabled in PrusaSlicer in order to see the indicated settings. This is a specific use case meant for the 3D printing libguide.
+1. Paste one of these anywhere you need to indicate a settings mode, ideally at the beginning of an element right after the opening tag. You don't need to change anything.
+### Simple Mode
+```
+<svg class="mode-icon simple-mode-icon" data-name="Simple Mode Icon" viewbox="0 0 11.44 13.21" aria-label="Simple Mode" xmlns="http://www.w3.org/2000/svg" style="height: 12px; width: auto;"> <polygon points="11.44 9.91 11.44 3.3 5.72 0 0 3.3 0 9.91 5.72 13.21 11.44 9.91"></polygon> </svg>
+```
+### Advanced Mode
+```
+<svg class="mode-icon advanced-mode-icon" data-name="Advanced Mode Icon" viewbox="0 0 11.44 13.21" aria-label="Advanced Mode" xmlns="http://www.w3.org/2000/svg" style="height: 12px; width: auto;"> <polygon points="11.44 9.91 11.44 3.3 5.72 0 0 3.3 0 9.91 5.72 13.21 11.44 9.91"></polygon> </svg>
+```
+### Expert Mode
+```
+<svg class="mode-icon expert-mode-icon" data-name="Expert Mode Icon" aria-label="Expert mode" viewbox="0 0 11.44 13.21" xmlns="http://www.w3.org/2000/svg" style="height: 12px; width: auto;"> <polygon points="11.44 9.91 11.44 3.3 5.72 0 0 3.3 0 9.91 5.72 13.21 11.44 9.91"></polygon> </svg>
+```
 # Formatting Tricks
+Some of the formatting on the public libguide can be a little finicky, so I've also included some instructions on how to get around some of these quirks.
+## Image Formatting
+For these, I recommend adding your image in the rich text editor, then cutting and pasting/altering the code in the source code editor.
+### Centering Images
+For some reason, images don't center themselves on the public libguide like they do on the editing page. 
+1. To fix this, add this attribute inside the `<img>` tag of your desired image.
+```
+class="centerimage"
+```
+### Putting Images in a Row
+To put multiple images in a row and have them centered:
+1. Add this attribute inside the `<img>` tag of your desired image.
+```
+class="rowimage"
+```
+### Adding one or more Images with Captions
+This one is a little more complicated, but the images will align nicely with the captions.
+1. Copy and paste this code wherever you want your image(s) to be placed.
+```
+<div style="margin-left:auto !important; margin-right:auto !important; width:fit-content;">
+	<div class="imagerow">
+		<p>[PLACE IMAGE HERE]</p>
+		<p class="caption">[PLACE CAPTION HERE]</p>
+	</div>
+</div>
+```
+2. You can increase the number of images that are placed next to each other by adding this code after the second to last `</div>` closing tag.
+```
+<div class="imagerow">
+    <p>[PLACE IMAGE HERE]</p>
+    <p class="caption">[PLACE CAPTION HERE]</p>
+</div>
+```
+    - So if you had two images, it would look like this:
+```
+<div style="margin-left:auto !important; margin-right:auto !important; width:fit-content;">
+	<div class="imagerow">
+		<p>[PLACE IMAGE HERE]</p>
+		<p class="caption">[PLACE CAPTION HERE]</p>
+	</div>
+	<div class="imagerow">
+		<p>[PLACE IMAGE HERE]</p>
+		<p class="caption">[PLACE CAPTION HERE]</p>
+	</div>
+</div>
+```
+3. Replace the indicated text **including the brackets**, but do not remove the quotes.
+   - **[PLACE IMAGE HERE]** - Copy and paste your image element in between the `<p>` and `</p>` tags.
+   - **[PLACE CAPTION HERE]** - Type your caption here.
+4. Repeat for each image.
+## Linking to Specific Tabs in Tabbed Boxes
+I have no idea why this isn't a thing you can do. If you want to link to a specific tab in a tabbed box, use this code to create your link. Keep in mind this is a bit more involved and better suited for more advanced users.
+1. Copy and paste this code wherever your want your link to be. This can be inline with other text or on its own. It does not matter.
+```
+<a class="tabLink" href="[LINK TO TABBED BOX]" onclick="jQuery('a[href=&quot;#[ID OF THE TAB]&quot;]').click();">LINK TEXT</a>
+```
+2. Replace the following text:
+    - **[LINK TO TABBED BOX]** - Place the lnk to the box that your tab is in. You can get this in the box's individual settings.
+    - **[ID OF THE TAB]** - BE VERY CAREFUL THAT YOU ARE ONLY REPLACING THIS TEXT.
+        - **Getting the ID: Method 1**:
+            1. On the public libguide, right click on the tab and click "Inspect Element."
+            2. The box that appears will look different depending on the browser you're using, but in general it should bring up the website's raw HTML with the tab's line highlighted or indicated somehow.
+![Screenshot of Firefox's inspect element window. The element of the selected tab is highlighted](documentationImages/inspectElement.png)
+            3. The value listed under `href` is the ID of the tab. Copy this value **without the `#` and the quotes** and use it as your ID.
+        - **Getting the ID: Method 2**:
+              1. You can also get the tab's ID by using the box's ID, which is listed in the box's individual settings.
+              2. Your tabs IDs are made by appending a hyphen and a number that increases for each tab in order. The numbers start at 0.
+                  - e.g. If your box's ID is `s-lib-ctab-34531070`, then:
+                      - Your first tab's ID will be `s-lib-ctab-34531070-0`
+                      - Your second tab's ID will be `s-lib-ctab-34531070-1`
+                      - Your third tab's ID will be `s-lib-ctab-34531070-2` and so on
+          - **IMPORTANT: If you reoder your tabs, you will need to make sure you update your links to match the new order, since the tabs are numbered sequentially and not necessarily based on the individual tab itself**
+
