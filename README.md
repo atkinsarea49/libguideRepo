@@ -129,6 +129,10 @@ So if you had two images, it would look like this:
 ```
 <p class="caption">[PLACE CAPTION HERE]</p>
 ```
+**Tip:** Images placed in these rows look best when they are all the same height. By default, libguides adds the width and height in a style attribute, which can be changed after-the-fact in the source code if necessary. For this, change the width to `auto` and the height to any number of pixels: `200px`. 200-300 is usually good. You can do this for every image in that row to make them line up nicely.
+```
+style="width: auto; height: 200px;"
+```
 ## Linking to Specific Tabs in Tabbed Boxes
 I have no idea why this isn't a thing you can do. If you want to link to a specific tab in a tabbed box, use this code to create your link. Keep in mind this is a bit more involved and better suited for more advanced users.
 1. Copy and paste this code wherever your want your link to be. This can be inline with other text or on its own. It does not matter.
