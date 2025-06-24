@@ -144,12 +144,12 @@ I have no idea why this isn't a thing you can do. If you want to link to a speci
 ![Screenshot of Firefox's inspect element window. The element of the selected tab is highlighted](documentationImages/inspectElement.png)
             3. The value listed under `href` is the ID of the tab. Copy this value **without the `#` and the quotes** and use it as your ID.
         - **Getting the ID: Method 2**:
-              1. You can also get the tab's ID by using the box's ID, which is listed in the box's individual settings.
-              2. Your tabs IDs are made by appending a hyphen and a number that increases for each tab in order. The numbers start at 0.
-                  - e.g. If your box's ID is `s-lib-ctab-34531070`, then:
-                      - Your first tab's ID will be `s-lib-ctab-34531070-0`
-                      - Your second tab's ID will be `s-lib-ctab-34531070-1`
-                      - Your third tab's ID will be `s-lib-ctab-34531070-2` and so on
+		1. You can also get the tab's ID by using the box's ID, which is listed in the box's individual settings.
+		2. Your tabs IDs are made by appending a hyphen and a number that increases for each tab in order. The numbers start at 0.
+			- e.g. If your box's ID is `s-lib-ctab-34531070`, then:
+			- Your first tab's ID will be `s-lib-ctab-34531070-0`
+			- Your second tab's ID will be `s-lib-ctab-34531070-1`
+			- Your third tab's ID will be `s-lib-ctab-34531070-2` and so on
 
 **IMPORTANT: If you reoder your tabs, you will need to make sure you update your links to match the new order, since the tabs are numbered sequentially and not necessarily based on the individual tab itself**
 
