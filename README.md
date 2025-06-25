@@ -8,7 +8,7 @@ To find this box:
 ![screenshot of the look and feel menu open. the guide custom css/js option is highlighted in red](documentationImages/customCss1.png)
 2. Paste the following code:
 ```
-<link rel="stylesheet" type="text/css" href="https://area49.github.io/libguideRepo/libguideCSS.css">
+<link rel="stylesheet" type="text/css" href="https://atkinsarea49.github.io/libguideRepo/css/libguideCSS.css">
 ```
 # Adding Custom Elements
 Most of these techniques require you to edit the source code for your content items. In the rich text editing window, click the "Source" icon. This will show you the bare (and horribly linted) HTML. It can look a little all over the place, so here are some general tips for reading it. **IT IS HIGHLY ADVISABLE TO COPY ALL OF YOUR SOURCE CODE AND PASTE IT IN A TEMPORARY LOCATION BEFORE SWITCHING FROM SOURCE CODE TO RICH TEXT MODE OR BEFORE CONFIRMING YOUR CHANGES.** The libguide editing page performs "validation" (if you can even call it that) on the code, and if it detects any errors, it will try and guess at what you were trying to do and "fix it" itself (and it WILL guess wrong).
