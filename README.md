@@ -51,6 +51,7 @@ This element will put a question mark icon wherever you paste the code that open
   - **[PLACE YOUR CONTENT HERE]** - Add the stuff you want displayed in the collapsable box here. You can add other elements outside the `<p>` tags as well such as lists and images, as long as everything stays within the `<div>` tags.
     - If you are not familiar with HTML and you want to add stuff beyond plain text, I'd recommend adding it using the rich text editor at the bottom of the page, then cutting and pasting the source code between the two `<div>` tags.
     - If you need multiple paragraphs, add your additional paragraphs after the closed `</p>` tag enclosed with a `<p>` tag at the beginning and a `</p>` tag at the end.
+
 You can also do a similar technique with plain text links, other buttons, etc. Here is an example of a dropdown that uses a plain text link:
 ```
 <a aria-controls="[ID HERE]" aria-expanded="false" aria-label="[LABEL HERE]" data-toggle="collapse" href="#[ID HERE]" title="[TOOLTIP HERE]">
