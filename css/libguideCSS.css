@@ -112,3 +112,15 @@
 h4 {
    font-weight: normal !important;
 }
+
+.flexcontainer {
+   display: flex;
+}
+
+.flexbox {
+   display: flex;
+   align-items: center;
+   flex: 1;
+}
+
+
