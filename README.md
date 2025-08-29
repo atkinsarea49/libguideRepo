@@ -144,6 +144,23 @@ So if you had two images, it would look like this:
 ```
 style="width: auto; height: 200px;"
 ```
+
+## Placing Two Objects Next to Each Other
+Yeah, you can do this natively, sort of. This will make it look nice and will center the smaller element. Plus, you're not just limited to pictures next to text. Also, why use float when you can use flex.
+1. To use this, paste the following code:
+```
+<div class="flexcontainer">
+	<div class="flexbox">
+		[YOUR ITEM HERE]
+	</div>
+	<div class="flexbox">
+		[YOUR ITEM HERE]
+	</div>
+</div>
+
+```
+2. Replace both appearances of `[YOUR ITEM HERE]` with whatever you want your content to be. It can be a `<p>`, an `<img>`, etc.
+
 ## Linking to Specific Tabs in Tabbed Boxes
 I have no idea why this isn't a thing you can do. If you want to link to a specific tab in a tabbed box, use this code to create your link. Keep in mind this is a bit more involved and better suited for more advanced users.
 1. Copy and paste this code wherever your want your link to be. This can be inline with other text or on its own. It does not matter.
