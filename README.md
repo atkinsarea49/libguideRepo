@@ -183,3 +183,50 @@ I have no idea why this isn't a thing you can do. If you want to link to a speci
 
 **IMPORTANT: If you reoder your tabs, you will need to make sure you update your links to match the new order, since the tabs are numbered sequentially and not necessarily based on the individual tab itself**
 
+# Seek-and-Find Pages
+## Base Code
+These should be unlisted but public. You can add listings for items (such as the spiders) by following these instructions:
+1. Copy the following code to wherever you want the listings to be. This configuration has two "slots."
+```
+<div class="flexcontainer">
+
+	<div class="flexbox">
+		<div class="[RARITY] found-item-div">
+			<p>[INSERT NAME HERE]</p>
+			<p><img alt="" class="found-item-img" loading="lazy" src="[PASTE LINK TO IMAGE HERE]" /></p>
+		</div>
+	</div>
+
+	<div class="flexbox">
+		<div class="[RARITY] found-item-div">
+			<p>[INSERT NAME HERE]</p>
+			<p><img alt="" class="found-item-img" loading="lazy" src="[PASTE LINK TO IMAGE HERE]" /></p>
+		</div>
+	</div>
+
+</div>
+```
+	- [INSERT NAME HERE] - put the name of the item here
+	- [PASTE LINK TO IMAGE HERE] - paste the link to your image here. Make sure to include the quotes.
+ 	- [RARITY] - See below
+2. You can add more "slots" by pasting this code before the last tag, one for each item:
+```
+<div class="flexbox">
+		<div class="[RARITY] found-item-div">
+			<p>[INSERT NAME HERE]</p>
+			<p><img alt="" class="found-item-img" loading="lazy" src="[PASTE LINK TO IMAGE HERE]" /></p>
+		</div>
+	</div>
+```
+## Changing Border Color Based on Rarity
+There are several rarity types. Each one has a dedicated border color. Designate the item's rarity by pasting the cooresponding name in place of [RARITY] in the base code. These are the available rarities. Copy and paste the name directly.
+- `common-div` - Common rarity
+- `rare-div` - Rare rarity
+- `sr-div` - Super Rare rarity
+- `ur-div` - Ultra Rare rarity
+### Example
+For a common item, the line would look like this:
+```
+<div class="common-div found-item-div">
+```
+
