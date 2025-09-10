@@ -123,4 +123,24 @@ h4 {
    flex: 1;
 }
 
+.found-item-div {
+   padding :15px;
+   border-radius: 10px;
+   object-fit: scale-down;
+   margin: 10px;
+}
 
+.found-item-div > p {
+   font-size:18px;
+   width:auto;
+   text-align:center;
+   object-fit:scale-down;
+}
+
+.common-div {
+   background-color: #edf3ec;
+}
+
+.found-item-img {
+   border-radius:10px;
+}
