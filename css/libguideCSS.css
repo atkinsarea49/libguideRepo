@@ -137,10 +137,21 @@ h4 {
    object-fit:scale-down;
 }
 
-.common-div {
-   background-color: #edf3ec;
-}
-
 .found-item-img {
    border-radius:10px;
+}
+
+.common-div {
+   background-color: #edf3ec;
+
+.rare-div {
+   background-color: #e7f3f8;
+}
+   
+.sr-div {
+   background-color: #f8f3fc;
+}
+   
+.ur-div {
+   background-color: #fcf1f6;
 }
