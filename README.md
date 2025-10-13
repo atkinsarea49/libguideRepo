@@ -160,6 +160,11 @@ Yeah, you can do this natively, sort of. This will make it look nice and will ce
 
 ```
 2. Replace both appearances of `[YOUR ITEM HERE]` with whatever you want your content to be. It can be a `<p>`, an `<img>`, etc.
+3. Important Note: Libguides will natively hard-code the size of your image. This does not have a negative effect on desktop, but it looks really bad on mobile. So if you are using images, be sure to remove the following from the code in the `<img>` tag:
+```
+style="width: 300px; height: 300px;"
+```
+4. The actual numbers used for the dimensions may vary.
 
 ## Linking to Specific Tabs in Tabbed Boxes
 I have no idea why this isn't a thing you can do. If you want to link to a specific tab in a tabbed box, use this code to create your link. Keep in mind this is a bit more involved and better suited for more advanced users.
