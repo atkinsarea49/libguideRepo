@@ -115,6 +115,7 @@ h4 {
 
 .flexcontainer {
    display: flex;
+   margin-bottom:10px;
 }
 
 .flexbox {
