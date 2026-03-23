@@ -159,3 +159,8 @@ h4 {
 .ur-div {
    background-color: #fcf1f6;
 }
+
+.inline-img {
+   display:inline-block;
+   height:1.2em;
+}
