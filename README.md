@@ -101,6 +101,11 @@ For some reason, images don't center themselves on the public libguide like they
 ```
 class="centerimage"
 ```
+### Inline Images
+To add images inline with the text (like icons), add this to the `<img>` tag of your desired image.
+```
+class="inline-img"
+```
 ### Adding one or more Images in a Row (or with Captions)
 This one is a little more complicated, but the images will align nicely with the captions. You can use this to either put multiple images in a row, add a caption to an image that conforms to the image's size, or both.
 1. Copy and paste this code wherever you want your image(s) to be placed.
