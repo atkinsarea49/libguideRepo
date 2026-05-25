@@ -33,6 +33,7 @@
    padding: 0px !important;
    color: #006633 !important;
    font-size: 16px !important;
+   background-color: transparent !important;
 }
 
 .question-btn:hover, .question-btn:active, .question-btn:focus {
