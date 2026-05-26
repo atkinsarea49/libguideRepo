@@ -239,4 +239,10 @@ For a common item, the line would look like this:
 ```
 <div class="common-div found-item-div">
 ```
-
+# FAQs
+## FAQ Buttons
+To add one of these, use the following code:
+```
+<a href="[LINK TO FAQ]"><button class="btn btn-green">FAQs</button></a>
+```
+Replace `[LINK TO FAQ]` with the link to your FAQ section. Make sure to keep the quotes.
