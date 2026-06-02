@@ -1,0 +1,6 @@
+<div class="alertBox">
+   <p>
+      <span class="glyphicon glyphicon-exclamation-sign" aria-label="Alert"></span>
+      [YOUR MESSAGE HERE]
+   </p>
+</div>
