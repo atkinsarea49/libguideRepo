@@ -1,0 +1,6 @@
+<button aria-controls="[ID HERE]" aria-expanded="false" aria-label="[LABEL HERE]" class="btn btn-default question-btn" data-toggle="collapse" href="#[ID HERE]" title="[TOOLTIP HERE]">
+    <span class="glyphicon glyphicon-question-sign"></span>
+</button>
+<div class="collapseBox collapse" id="[ID HERE]">
+   <p>[PLACE YOUR CONTENT HERE]</p>
+</div>
