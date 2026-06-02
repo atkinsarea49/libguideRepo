@@ -1,6 +1,7 @@
 # FAQs
 For the CSS used in the FAQ widget, see ![Libanswers CSS](https://raw.githubusercontent.com/atkinsarea49/libguideRepo/refs/heads/main/css/libanswersWidgetCSS)
 ## FAQ Buttons
+You must be in "source" view in the text editor in order to add this code.
 To add one of these, use the following code:
 ```
 <a href="[LINK TO FAQ]"><button class="btn btn-green">FAQs</button></a>
@@ -10,3 +11,4 @@ To add an FAQ button to the header for the machine, add the following before the
 ```
 &nbsp;&nbsp;&nbsp;
 ```
+Then, paste the whole thing before the `</h3>` tag at the top of the source editor.
