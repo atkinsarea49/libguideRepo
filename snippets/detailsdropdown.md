@@ -1,7 +1,7 @@
 ## Details Dropdown
 This element will put a question mark icon wherever you paste the code that opens a collapsing box for images/more details/explanations/etc. It looks best when placed at the end of a line. It is classed as a button and styled to look a little better inline.
 ![Screenshot of a green question mark button at the end of a line](../documentationImages/detailsDropdown1.png)
-![Screenshot of an opened collapsable box underneath the line from the above image. The question mark icon is gold to indicate that the box has been opened](documentationImages/detailsDropdown2.png)
+![Screenshot of an opened collapsable box underneath the line from the above image. The question mark icon is gold to indicate that the box has been opened](../documentationImages/detailsDropdown2.png)
 1. Copy and paste the following code at the end of a text element like `<p>` (paragraph) or `<li>` (list item). You can also put these at the end of headings like `<h2>` or `<h3>`. Paste the code **before** the closing tag (the tag with the `/` before the name, such as `</p>` or `</h3>`.
 ```
 <button aria-controls="[ID HERE]" aria-expanded="false" aria-label="[LABEL HERE]" class="btn btn-default question-btn" data-toggle="collapse" href="#[ID HERE]" title="[TOOLTIP HERE]">
