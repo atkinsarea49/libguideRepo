@@ -30,9 +30,9 @@ Most of these techniques require you to edit the source code for your content it
 - [Alert Box](snippets/alertbox.md)
 - [Prusa Mode Icons](snippets/prusaicons)
 - Formatting Tricks
-- 	[Centering Images](snippets/centerimage.md)
-- 	[Inline Images](snippets/inlineimages.md)
-- 	[Placing Objects Next to Each Other](snippets/objectrow.md)
+  - [Centering Images](snippets/centerimage.md)
+  - [Inline Images](snippets/inlineimages.md)
+  - [Placing Objects Next to Each Other](snippets/objectrow.md)
 - [Linking to Specific Tabs in Tabbed Boxes](snippets/linkingtotabs.md)
 - [Seek and Find/Scavenger Hunts](snippets/seekandfind.md)
 - [FAQ Widgets](snippets/faq.md)
