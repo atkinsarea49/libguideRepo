@@ -9,6 +9,11 @@ These should be unlisted but public. You can add listings for items (such as the
 		<div class="[RARITY] found-item-div">
 			<p>[INSERT NAME HERE]</p>
 			<p><img alt="" class="found-item-img" loading="lazy" src="[PASTE LINK TO IMAGE HERE]" /></p>
+			<p>Interested in learning more?</p>
+			<ul>
+				<li><a href = "[URL OF RESOURCE]">[NAME OF RESOURCE]</a></li>
+				<li><a href = "[URL OF RESOURCE]">[NAME OF RESOURCE]</a></li>
+			</ul>
 		</div>
 	</div>
 
@@ -24,6 +29,12 @@ These should be unlisted but public. You can add listings for items (such as the
 	- [INSERT NAME HERE] - put the name of the item here
 	- [PASTE LINK TO IMAGE HERE] - paste the link to your image here. Make sure to include the quotes.
  	- [RARITY] - See below
+	- [URL OF RESOURCE] - paste the link to a resource where students can learn more information
+	- [NAME OF RESOURCE] - put the name of the resource here.
+		- You can add more resources to this list by adding more of these lines:
+		```
+		<li><a href = "[URL OF RESOURCE]">[NAME OF RESOURCE]</a></li>
+		```
 2. You can add more "slots" by pasting this code before the last tag, one for each item:
 ```
 <div class="flexbox">
