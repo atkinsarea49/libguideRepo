@@ -33,9 +33,9 @@ These should be unlisted but public. You can add listings for items (such as the
 	- [NAME OF RESOURCE] - put the name of the resource here.
 		- You can add more resources to this list by adding more of these lines:
 		
-		```
-		<li><a href = "[URL OF RESOURCE]">[NAME OF RESOURCE]</a></li>
-		```
+```
+<li><a href = "[URL OF RESOURCE]">[NAME OF RESOURCE]</a></li>
+```
 2. You can add more "slots" by pasting this code before the last tag, one for each item:
 ```
 <div class="flexbox">
