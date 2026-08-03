@@ -21,6 +21,11 @@ These should be unlisted but public. You can add listings for items (such as the
 		<div class="[RARITY] found-item-div">
 			<p>[INSERT NAME HERE]</p>
 			<p><img alt="" class="found-item-img" loading="lazy" src="[PASTE LINK TO IMAGE HERE]" /></p>
+			<p>Interested in learning more?</p>
+			<ul>
+				<li><a href = "[URL OF RESOURCE]">[NAME OF RESOURCE]</a></li>
+				<li><a href = "[URL OF RESOURCE]">[NAME OF RESOURCE]</a></li>
+			</ul>
 		</div>
 	</div>
 
@@ -45,6 +50,11 @@ These should be unlisted but public. You can add listings for items (such as the
 		<div class="[RARITY] found-item-div">
 			<p>[INSERT NAME HERE]</p>
 			<p><img alt="" class="found-item-img" loading="lazy" src="[PASTE LINK TO IMAGE HERE]" /></p>
+			<p>Interested in learning more?</p>
+			<ul>
+				<li><a href = "[URL OF RESOURCE]">[NAME OF RESOURCE]</a></li>
+				<li><a href = "[URL OF RESOURCE]">[NAME OF RESOURCE]</a></li>
+			</ul>
 		</div>
 	</div>
 ```
