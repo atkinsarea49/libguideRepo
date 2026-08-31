@@ -2,7 +2,7 @@
 ```
 <h3>[MACHINE NAME]</h3>
 <div class="flexcontainer">
-  <div class="flexbox"><img alt="[ALT TEXT FOR IMAGE OF MACHINE]" loading="lazy" src="[LINK TO MACHINE IMAGE]" /></div>
+  <div class="flexbox"><img style="min-width: 300px;" alt="[ALT TEXT FOR IMAGE OF MACHINE]" loading="lazy" src="[LINK TO MACHINE IMAGE]" /></div>
   <div class="flexbox">
     <h3>[MACHINE NAME]</h3>
     <p><span class="accented">Machine Type:</span> [TYPE OF MACHINE]</p>
