@@ -18,6 +18,7 @@
 </div>
 ```
 2. Replace the following placeholders:
+
    `[ALT TEXT FOR IMAGE OF MACHINE]` - alt text for the image of the machine
    `[LINK TO MACHINE IMAGE]` - URL that leads to the image of the machine
    `[MACHINE NAME]` - the machine's name
