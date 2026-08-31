@@ -24,5 +24,7 @@
    - `[MACHINE NAME]` - the machine's name
    - `[TYPE OF MACHINE]` - What type of machine is it? 3D printer, laser cutter, etc.
    - `[TRAINING REQUIRED]` - Does it require training? If no, put "No" and if yes, then put
-       - ```<a href="[https://instructure.charlotte.edu/enroll/7JBFKG](https://library.charlotte.edu/technology-equipment/technology-instruction)">Yes, enroll now!</a>```
+        ```
+     <a href="[https://instructure.charlotte.edu/enroll/7JBFKG](https://library.charlotte.edu/technology-equipment/technology-instruction)">Yes, enroll now!</a>
+        ```
    - `[FEATURE 1, 2, ETC.]` - List the features of the machine, such as the build volume. Put each list item between `<li>` and `</li>`. You can add more if you want.
