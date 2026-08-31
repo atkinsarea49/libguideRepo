@@ -166,3 +166,8 @@ h4 {
    display:inline-block;
    height:2em;
 }
+
+.accented {
+   color: #005035;
+  font-weight: 1000;
+}
