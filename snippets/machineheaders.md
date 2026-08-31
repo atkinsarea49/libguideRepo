@@ -6,6 +6,7 @@
   <div class="flexbox">
     <h3>[MACHINE NAME]</h3>
     <p><span class="accented">Machine Type:</span> [TYPE OF MACHINE]</p>
+    <p><span class="accented">Location:</span> [LOCATION]</p>
     <p><span class="accented">Training Required:</span> [TRAINING REQUIRED]</p>
     <p class="accented">Features and Specs:</p>
     <ul>
@@ -23,6 +24,7 @@
    - `[LINK TO MACHINE IMAGE]` - URL that leads to the image of the machine
    - `[MACHINE NAME]` - the machine's name
    - `[TYPE OF MACHINE]` - What type of machine is it? 3D printer, laser cutter, etc.
+   - `[LOCATION]` - Where it is located
    - `[TRAINING REQUIRED]` - Does it require training? If no, put "No" and if yes, then put
         ```
      <a href="[https://instructure.charlotte.edu/enroll/7JBFKG](https://library.charlotte.edu/technology-equipment/technology-instruction)">Yes, enroll now!</a>
